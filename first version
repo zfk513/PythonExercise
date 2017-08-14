@@ -1,0 +1,11 @@
+def shut_down(s):
+
+  while s.upper() !="YES" and s.lower() !="y" and s.upper() !="NO" and s.lower()!="n":
+    print  "Sorry ,please do again"
+    s=raw_input("Do you want to shutdown the computer? y/n:")
+  if s.upper() =="YES" or s.lower()=="y":
+      return "Shutting down"
+  elif s.upper() =="NO" or s.lower()=="n":
+    return "Shutdown aborted"
+  
+print shut_down(raw_input("Do you want to shutdown the computer? y/n:"))
