@@ -1,0 +1,8 @@
+def anti_vowel(text):
+  word=''
+  for i in text:
+    if i.lower() not in"aeiou":
+      word+=i
+  return word
+print anti_vowel("Aeino Hey You!")
+      
