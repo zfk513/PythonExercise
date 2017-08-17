@@ -1,0 +1,11 @@
+def purify(x):
+  new=[]
+  for i in x:
+    if i%2==0:
+      new.append(i)
+  return new
+print purify([1,2,3])
+def purify(numbers):
+    return [n for n in numbers if n % 2 == 0]
+print purify([1,2,3])
+  
